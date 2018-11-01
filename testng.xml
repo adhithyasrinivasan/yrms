@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="YRMS Test Suite">
+  	<test name="Sanity Tests" preserve-order="true" parallel="none">
+    		<classes>
+      			<!--  <class name="com.yantra.auto.yrms.scripts.HomePage_Script"/>-->
+      			<class name="com.yantra.auto.yrms.scripts.RulesPage_Script"/>
+      			<!--<class name="com.yantra.auto.yrms.scripts.Users_Script"/>
+      			<class name="com.yantra.auto.yrms.scripts.TransactionDocument_Script"/>-->
+					
+   		</classes>
+  	</test> 
+  	<listeners>
+  		<listener class-name="com.yantra.auto.yrms.driver.listeners.ExtentReporterNG" />
+  		<listener class-name="com.yantra.auto.yrms.driver.listeners.AnnotationTransformer" />
+    </listeners>
+</suite> 

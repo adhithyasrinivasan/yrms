@@ -1,0 +1,144 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 14, Errors: 0, Skipped: 0, Time elapsed: 56.808 s <<< FAILURE! - in TestSuite
+testNavigateToRulesPage(com.yantra.auto.yrms.scripts.RulesPage_Script)  Time elapsed: 0.12 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A6080/YRMS&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A6080.
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'FT-DESKTOP-019', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-32-generic', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6909, moz:profile: /tmp/rust_mozprofile.Obi6qP..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.13.0-32-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c54a0c48-416f-4000-bae9-4c743afffd60
+	at com.yantra.auto.yrms.scripts.RulesPage_Script.testNavigateToRulesPage(RulesPage_Script.java:22)
+
+testNavigateToAddRulePage(com.yantra.auto.yrms.scripts.RulesPage_Script)  Time elapsed: 0.062 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A6080/YRMS&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A6080.
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'FT-DESKTOP-019', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-32-generic', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7093, moz:profile: /tmp/rust_mozprofile.NfaKIp..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.13.0-32-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 87c9fe70-b7f9-4681-b75e-857279e147d0
+	at com.yantra.auto.yrms.scripts.RulesPage_Script.testNavigateToAddRulePage(RulesPage_Script.java:31)
+
+testMasterHolderNameRule(com.yantra.auto.yrms.scripts.RulesPage_Script)  Time elapsed: 0.088 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A6080/YRMS&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A6080.
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'FT-DESKTOP-019', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-32-generic', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7251, moz:profile: /tmp/rust_mozprofile.kC34rT..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.13.0-32-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 64be09fb-a58d-42c2-8e90-cbb84b3c09fc
+	at com.yantra.auto.yrms.scripts.RulesPage_Script.testMasterHolderNameRule(RulesPage_Script.java:41)
+
+testSecondaryHolderNameRule(com.yantra.auto.yrms.scripts.RulesPage_Script)  Time elapsed: 0.075 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A6080/YRMS&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A6080.
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'FT-DESKTOP-019', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-32-generic', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7411, moz:profile: /tmp/rust_mozprofile.2mGRzP..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.13.0-32-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d22df64d-d540-4a61-81f3-81d4f8a7c4ee
+	at com.yantra.auto.yrms.scripts.RulesPage_Script.testSecondaryHolderNameRule(RulesPage_Script.java:59)
+
+testMasterHolderIDRule(com.yantra.auto.yrms.scripts.RulesPage_Script)  Time elapsed: 0.049 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A6080/YRMS&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A6080.
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'FT-DESKTOP-019', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-32-generic', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7566, moz:profile: /tmp/rust_mozprofile.xXaS6J..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.13.0-32-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: db8550ad-be2e-4334-95c2-2b2b1ddd85a4
+	at com.yantra.auto.yrms.scripts.RulesPage_Script.testMasterHolderIDRule(RulesPage_Script.java:77)
+
+testSecondaryHolderIDRule(com.yantra.auto.yrms.scripts.RulesPage_Script)  Time elapsed: 0.079 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A6080/YRMS&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A6080.
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'FT-DESKTOP-019', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-32-generic', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7724, moz:profile: /tmp/rust_mozprofile.dE5Msd..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.13.0-32-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 70f78e28-0ab8-41e5-b602-8a5e7e575f90
+	at com.yantra.auto.yrms.scripts.RulesPage_Script.testSecondaryHolderIDRule(RulesPage_Script.java:95)
+
+testMasterDOBRule(com.yantra.auto.yrms.scripts.RulesPage_Script)  Time elapsed: 0.085 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A6080/YRMS&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A6080.
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'FT-DESKTOP-019', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-32-generic', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7883, moz:profile: /tmp/rust_mozprofile.HhSquq..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.13.0-32-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b37571e2-44c7-4309-a46d-b31d7675151e
+	at com.yantra.auto.yrms.scripts.RulesPage_Script.testMasterDOBRule(RulesPage_Script.java:113)
+
+testMasterDOERule(com.yantra.auto.yrms.scripts.RulesPage_Script)  Time elapsed: 0.068 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A6080/YRMS&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A6080.
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'FT-DESKTOP-019', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-32-generic', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8044, moz:profile: /tmp/rust_mozprofile.pzL8nE..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.13.0-32-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 79185c1b-3845-40a3-8b27-279d4b50f137
+	at com.yantra.auto.yrms.scripts.RulesPage_Script.testMasterDOERule(RulesPage_Script.java:131)
+
+testSecondaryDOBRule(com.yantra.auto.yrms.scripts.RulesPage_Script)  Time elapsed: 0.059 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A6080/YRMS&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A6080.
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'FT-DESKTOP-019', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-32-generic', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8202, moz:profile: /tmp/rust_mozprofile.0d0aIW..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.13.0-32-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c7bd6747-09f2-438e-8efc-5ac493b3e4d1
+	at com.yantra.auto.yrms.scripts.RulesPage_Script.testSecondaryDOBRule(RulesPage_Script.java:149)
+
+testSecondaryDOERule(com.yantra.auto.yrms.scripts.RulesPage_Script)  Time elapsed: 0.066 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A6080/YRMS&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A6080.
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'FT-DESKTOP-019', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-32-generic', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8365, moz:profile: /tmp/rust_mozprofile.uzjSiI..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.13.0-32-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: fd512aa3-5060-4a11-a944-aa9af716e7b2
+	at com.yantra.auto.yrms.scripts.RulesPage_Script.testSecondaryDOERule(RulesPage_Script.java:167)
+
+tesMFPIPRule(com.yantra.auto.yrms.scripts.RulesPage_Script)  Time elapsed: 0.097 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A6080/YRMS&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A6080.
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'FT-DESKTOP-019', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-32-generic', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8524, moz:profile: /tmp/rust_mozprofile.zbuPUH..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.13.0-32-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 54366bd5-d1e9-4a81-98b5-03ba3d3c9eea
+	at com.yantra.auto.yrms.scripts.RulesPage_Script.tesMFPIPRule(RulesPage_Script.java:185)
+
+tesMFPMACRule(com.yantra.auto.yrms.scripts.RulesPage_Script)  Time elapsed: 0.078 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A6080/YRMS&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A6080.
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'FT-DESKTOP-019', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-32-generic', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8679, moz:profile: /tmp/rust_mozprofile.7WXrFl..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.13.0-32-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f916fe3c-cbdb-487f-97ec-8fa05e6b99a2
+	at com.yantra.auto.yrms.scripts.RulesPage_Script.tesMFPMACRule(RulesPage_Script.java:203)
+
+tesTransactionNumberRule(com.yantra.auto.yrms.scripts.RulesPage_Script)  Time elapsed: 0.062 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A6080/YRMS&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A6080.
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'FT-DESKTOP-019', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-32-generic', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8837, moz:profile: /tmp/rust_mozprofile.5HRNb0..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.13.0-32-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ca443edb-d9ba-40bf-bb8d-48077bdd7621
+	at com.yantra.auto.yrms.scripts.RulesPage_Script.tesTransactionNumberRule(RulesPage_Script.java:221)
+
+tesTransactionCodeRule(com.yantra.auto.yrms.scripts.RulesPage_Script)  Time elapsed: 0.084 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A6080/YRMS&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A6080.
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'FT-DESKTOP-019', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-32-generic', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8996, moz:profile: /tmp/rust_mozprofile.lLnPKI..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.13.0-32-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 1f918cfb-5b3f-4d48-b691-69b1efbce5ac
+	at com.yantra.auto.yrms.scripts.RulesPage_Script.tesTransactionCodeRule(RulesPage_Script.java:239)
+

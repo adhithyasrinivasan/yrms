@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Rms Test Suite]">
+  <listeners>
+    <listener class-name="com.yantra.auto.yrms.driver.listeners.ExtentReporterNG"/>
+  </listeners>
+  <test name="Check Login to Transaction Document Page(failed)">
+    <classes>
+      <class name="com.yantra.auto.yrms.scripts.TransactionDocument_Script">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="checkTotalTransactionCount"/>
+        </methods>
+      </class> <!-- com.yantra.auto.yrms.scripts.TransactionDocument_Script -->
+    </classes>
+  </test> <!-- Check Login to Transaction Document Page(failed) -->
+</suite> <!-- Failed suite [Rms Test Suite] -->

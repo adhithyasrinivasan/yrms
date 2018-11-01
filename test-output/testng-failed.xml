@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [YRMS Test Suite]">
+  <listeners>
+    <listener class-name="com.yantra.auto.yrms.driver.listeners.ExtentReporterNG"/>
+    <listener class-name="com.yantra.auto.yrms.driver.listeners.AnnotationTransformer"/>
+  </listeners>
+  <test name="Sanity Tests(failed)" parallel="none">
+    <classes>
+      <class name="com.yantra.auto.yrms.scripts.RulesPage_Script">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testMasterAccountTrialBalanceRule"/>
+          <include name="testSecondaryAccountRunningBalanceRule"/>
+          <include name="setup"/>
+          <include name="testSecondaryAccountTrialBalanceRule"/>
+          <include name="testMasterAccountHoldBalanceRule"/>
+          <include name="testMasterAccountRunningBalanceRule"/>
+          <include name="testSecondaryAccountHoldBalanceRule"/>
+        </methods>
+      </class> <!-- com.yantra.auto.yrms.scripts.RulesPage_Script -->
+    </classes>
+  </test> <!-- Sanity Tests(failed) -->
+</suite> <!-- Failed suite [YRMS Test Suite] -->
